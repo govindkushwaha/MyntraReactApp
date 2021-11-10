@@ -1,0 +1,54 @@
+.productSection{
+    display: flex;
+    position: relative;
+}
+
+.productImage{
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+
+.closeBtnSection{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.productInnerSection{
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sizeSection{
+    margin-top: 15px;
+    margin: 3rem;
+    display: flex;
+}
+.size{
+    display:inline;
+    font-size:small;
+    margin-right: 0.5rem;
+    justify-content: space-around;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 0.30rem;    
+}
+.size:hover{
+    color: white;
+    background-color: red;
+}
+
+.addToCart{
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color:blue;
+    color: white;
+    border: 5px solid rgb(0, 183, 255);
+    border-spacing: 5px;
+}
+
+.discountSection{
+    color: red;
+}
+

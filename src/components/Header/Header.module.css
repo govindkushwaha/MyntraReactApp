@@ -1,0 +1,43 @@
+.log{
+    background: url(https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png);
+    background-size: 1404px 105px;
+    width: 53px;
+    height: 36px;
+    background-position: -462px  0;
+
+}
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.headerSection{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 12px 0 rgb(0 0 0/ 5%);
+    background-color: #ffff;
+    padding: 0.5rem 1rem;
+
+}
+.searchSection {
+    flex-wrap: 2;
+    max-width: 400px;
+}
+
+.cardIconContainer{
+    position: relative;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.cartCount{
+    font-size: small;
+    color: white;
+    background-color: red;
+    position: absolute;
+    left: 80%;
+    bottom: 50%;
+    border: 1px dotted blue;
+    padding: 0.2rem;
+    border-radius: 50%;
+}

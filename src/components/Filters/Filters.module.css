@@ -1,0 +1,10 @@
+.filterSection{
+    min-width: 12%;
+    padding: 1rem;
+    border: 1px solid;
+}
+
+.genderFilterSection{
+
+    margin-bottom: 2rem;
+}
